@@ -7,7 +7,10 @@ listaAmigos = [];
 
 
 
-
+function sortearAmigo() {
+    let num = gerarIndiceAleatorio(listaAmigos.length);
+    alert(`O amigo secreto é ${listaAmigos[num]}`);
+}
 
 
 
@@ -25,4 +28,10 @@ function adicionarAmigo(){
         let limpar = document.querySelector("input");
         limpar.value = "";
     }
+}
+
+
+function gerarIndiceAleatorio(numeroMax) {
+    let indice = parseInt(Math.random() * numeroMax);
+    return indice;
 }
