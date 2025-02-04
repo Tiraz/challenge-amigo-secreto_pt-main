@@ -8,3 +8,7 @@
 <hr>
 <h2>Tecnologias</h2>
 <h3> JAVASCRIPT </h3> <h3> CSS </h3> <h3> HTML </h3>
+<br>
+<hr>
+<h2>Deploy</h2>
+<p>https://challenge-amigo-secreto-steel-zeta.vercel.app/</p>
